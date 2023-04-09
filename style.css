@@ -31,5 +31,114 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	padding: 0;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color:#242424;
 }
 
+h1, h2, h3 {
+	font-family: 'Playfair Display', serif;
+	line-height: 1.25;
+	color: #3e606b;
+}
+
+h1 {font-size: 52px;
+	color: white;
+}
+
+h2 {font-size: 36px;}
+h3 {font-size: 18px;}
+
+.section-content {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+header, footer {
+	padding: 30px 0;
+}
+
+header {
+	max-width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+ul{list-style-type: none;}
+
+.menu {display:flex;}
+li:hover {background-color: #f195b2;}
+
+li {
+	padding:10px 15px;
+	border-radius: 20px;
+}
+
+a {text-decoration: none;}
+
+footer {background-color:#303339;
+	color: white;
+	text-align: center;
+}
+
+section {
+	padding: 80px 0;
+}
+
+.logo {width: 170px;}
+
+.hero {
+	background-image: url(images/cupcake.jpg);
+	background-size: cover;
+	color: white;
+	padding-right: 40%;
+}
+
+.nabidka {
+	background-color:#f0f0f0;
+}
+
+#vitejte {display: flex;}
+
+.levy {padding-right: 30px;
+	text-align: justify;
+}
+
+.tlacitko {
+	background-color: #f195b2;
+	padding: 15px 40px;
+	border-radius: 30px;
+	margin-top: 30px;
+}
+
+.tlacitko:hover {
+	background-color: #d2567d;
+}
+
+.fotky {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.p1 {
+	flex: 1 1 calc ((100% - 90px) / 4);
+}
+
+.p1, 
+.p2, 
+.p3, 
+.p4 {background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+#peceni {display: flex;}
+
+.right {padding-left: 30px;}
+.zakulatit {border-radius: 5px;}
+
+.poteseni (padding-left: )
